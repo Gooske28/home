@@ -1,0 +1,45 @@
+/* Donker thema basisstijlen */
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Verwijder standaard marge */
+    padding: 0; /* Verwijder standaard padding */
+}
+
+/* Centreren van inhoud */
+.container {
+    max-width: 600px; /* Maximale breedte voor inhoud */
+    margin: auto; /* Centreren */
+    padding: 2rem; /* Ruimte rondom de inhoud */
+    text-align: center; /* Tekst centreren */
+}
+
+/* Link styling */
+a:link {
+    color: #40e0d0;  /* Turquoise */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #30c0b0;  /* Iets donkerder turquoise */
+}
+
+a:hover {
+    color: #00ced1;   /* Dieper turquoise */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #20b2aa;  /* Zeegroen variant */
+}
+
+/* Extra styling voor de lijst */
+ul {
+    list-style: none; /* Verwijder standaard bullet points */
+    padding: 0; /* Verwijder standaard padding */
+}
+
+li {
+    margin-bottom: 1rem; /* Ruimte tussen lijstitems */
+}
